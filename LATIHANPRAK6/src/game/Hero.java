@@ -1,10 +1,10 @@
 package game;
-//nomor 1
+
 public class Hero {
 
-    protected String nama;
-    protected double health;
-    protected double attackPower;
+    private String nama;
+    private double health;
+    private double attackPower;
 
     public Hero(String nama, double health, double attackPower) {
         this.nama = nama;
@@ -12,7 +12,26 @@ public class Hero {
         this.attackPower = attackPower;
     }
 
-    //nomor 2
+    public String getNama() {
+        return nama;
+    }
+
+    public double getHealth() {
+        return health;
+    }
+
+    public double getAttackPower() {
+        return attackPower;
+    }
+
+    public void setHealth(double health) {
+        this.health = health;
+    }
+
+    public void setAttackPower(double attackPower) {
+        this.attackPower = attackPower;
+    }
+
     public void display() {
         System.out.println("Nama Hero   : " + nama);
         System.out.println("Health      : " + health);
@@ -21,7 +40,7 @@ public class Hero {
 
     public void berlatih() {
         attackPower += 10;
-        System.out.println(nama + " sedang berlatih dia ges");
+        System.out.println(nama + " sedang berlatih!");
     }
 
     public void terimaSerangan(double damage) {
