@@ -8,11 +8,11 @@ public class Main {
         ArrayList<Karyawan> daftar = new ArrayList<>();
 
         //data sesuai soal
-        daftar.add(new Karyawan("K01", "Budi", 2020, 5000000, 2.0)); // kena penalti
-        daftar.add(new Developer("D01", "Andi", 2018, 6000000, 4.0, "Senior", 20)); // gede banget
-        daftar.add(new Developer("D02", "Citra", 2024, 5500000, 2.8, "Mid", 15)); // bonus hangus
-        daftar.add(new Manajer("M01", "Dina", 2015, 8000000, 4.8, "IT", 10)); // dapet bonus ekstra
-        daftar.add(new Manajer("M02", "Eka", 2025, 7500000, 3.5, "HR", 3)); // normal
+        daftar.add(new Karyawan("K01", "Ruswan", 2020, 5000000, 2.0)); // kena penalti
+        daftar.add(new Developer("D01", "Paulus", 2018, 6000000, 4.0, "Senior", 20)); // gede banget
+        daftar.add(new Developer("D02", "Zakia", 2024, 5500000, 2.8, "Mid", 15)); // bonus hangus
+        daftar.add(new Manajer("M01", "Intan", 2015, 8000000, 4.8, "IT", 10)); // dapet bonus ekstra
+        daftar.add(new Manajer("M02", "Haikal", 2025, 7500000, 3.5, "HR", 3)); // normal
 
         double totalAnggaran = 0;
         double ratingTotal = 0;
